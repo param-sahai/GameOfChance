@@ -1,0 +1,43 @@
+body{
+    background-color: blueviolet;
+    font-family: 'Agbalumo';
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.glow {
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+.section{
+    text-align: center;
+    font-size: 3rem;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container1, #container2{
+    margin: 2rem;
+}
+
+img{
+    height: 12rem;
+    width: 12rem;
+}
